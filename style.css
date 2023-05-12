@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+/* Reset */
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html, body{
+  width: 1440px;
+  height: auto;
+}
+
+#set {
+  background-color: rgb(238, 228, 228);
+}
+
+.container {
+  display: flexbox;
+  margin: 3.5em;
+  height: 52em;
+}
+
+
+img {
+  margin-right: 1.5em;
+}
+
+h5 {
+  color: hsl(0, 0%, 100%);
+  margin-top: 0.3em;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+h6 {
+  color: hsl(0, 0%, 100%, 50%);
+  margin: 0.3em 0em 2em 0em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+h4 {
+  color: hsl(0, 0%, 100%, 70%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 1.45em;
+  font-weight: 500;
+  font-size: 0.995em;
+}
+
+.daniel {
+  width: 41em;
+  height: 25em;
+  background-color: hsl(263, 55%, 52%);
+  padding: 2em;
+  border-radius: 1em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.pics {
+  border-radius: 50%;
+  display: flexbox;
+  float: left;
+
+}
+
+.colon {
+  width: 9.5em;
+  height: 9.5em;
+  position: absolute;
+  display: flex;
+  float: right;
+  left: 29.5em;
+  top: 3.5em;
+}
+
+.abs {
+  position: relative;
+}
+
+.low {
+  color: hsla(0, 0%, 0%, 0.432);
+}
+
+.walters {
+  display: flexbox;
+  position: relative;
+  border-radius: 1em;
+  bottom: 25em;
+  left: 43em;
+  padding: 2em;
+  background-color: hsl(217, 19%, 35%);
+  width: 19em;
+  height: 25em
+}
+
+.kira {
+  border-radius: 1em;
+  display: flexbox;
+  flex-direction: column;
+  float: right;
+  position: relative;
+  bottom: 98.1em;
+  padding: 2em;
+  background-color: hsl(0, 0%, 100%);
+  width: 19em;
+  height: 51em
+}
+
+.harmon {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1em;
+  height: 24.1em;
+  width: 19em;
+  padding: 2em;
+  position: relative;
+  bottom: 22.9em;
+}
+
+.abrams {
+  background-color: hsl(209, 73%, 7%);
+  border-radius: 1em;
+  height: 24em;
+  width: 41.1em;
+  padding: 2em;
+  position: relative;
+  bottom: 46.9em;
+  left: 21em;
+}
+
+.lack {
+  border-radius: 50%;
+}
+
+.deb {
+  position: static;
+  margin-top: -2.8em;
+  margin-left: 4.5em;
+}
+
+.beb {
+  position: static;
+  margin-left: 5.4em;
+}
+
+.seb {
+  position: static;
+}
+
+.sap {
+  position: static;
+  line-height: 1.5em;
+}
+
+.color {
+  color: black;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.bold {
+  color: black;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.6em;
+}
+
+.paint {
+  color: hsla(0, 0%, 0%, 0.432);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 0.955em;
+}
+
+.saint {
+  color: hsla(0, 0%, 0%, 0.432);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 1.7em;
+  font-weight: 500;
+  font-size: 0.955em;
+}
+
+html, body{
+  width: 1440px;
+  height: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+/* RESONSIVE MOBILE DESIGN */
+
+@media screen and (max-width: 375px) {
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+/* Reset */
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+  html, body{
+    width: 375px;
+    height: 153em;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+  
+  #set {
+    background-color: rgb(238, 228, 228);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 5em 1.5em;
+  }
+  
+  
+  img {
+    margin-right: 1em;
+    height: 2.3em;
+    width: 2.3em;
+  }
+  
+  h5 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 0.9em;
+    padding-top: 0.15em;
+  }
+  
+  h6 {
+    color: hsl(0, 0%, 100%, 50%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.9em;
+    line-height: 30%;
+    margin-top: 0.6em;
+    margin-bottom: 2.1em;
+  }
+  
+  h3 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.2955em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-bottom: 0.9em;
+  }
+  
+  h4 {
+    color: hsl(0, 0%, 100%, 70%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 0.85em;
+  }
+  
+  .daniel {
+    position: static;
+    width: 20.35em;
+    height: 32em;
+    background-color: hsl(263, 55%, 52%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: 1.8em;
+    border-radius: 1em;
+  }
+
+  .walters {
+    position: static;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    padding: 1.8em;
+    background-color: hsl(217, 19%, 35%);
+    width: 20.35em;
+    height: 19em;
+  }
+
+  .pics {
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .colon {
+    width: 6.2em;
+    height: 7.4em;
+    position: absolute;
+    float: right;
+    left: 14.5em;
+    top: 5em;
+  }
+  
+  .abs {
+    margin-top: 0.2em;
+  }
+  
+  .low {
+    color: hsla(0, 0%, 0%, 0.432);
+  }
+  
+  .kira {   
+    position: static;
+    border-radius: 1em;
+    margin-top: 1.5em;
+    background-color: hsl(0, 0%, 100%);
+    width: 20.35em;
+    height: 44em;
+    padding: 1.8em;
+  }
+  
+  .harmon {
+    position: static;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1em;
+    width: 20.35em;
+    height: 17.5em;
+    padding: 1.8em;
+    margin-top: 1.5em;
+  }
+  
+  .abrams {
+    position: static;
+    background-color: hsl(209, 73%, 7%);
+    border-radius: 1em;
+    width: 20.35em;
+    height: 27.8em;
+    padding: 1.8em;
+    margin-top: 1.5em;
+  }
+
+  .lack {
+    border-radius: 50%;
+  }
+
+  
+  .beb {
+    position: static;
+    margin-left: 4.51em;
+  }
+  
+  .seb {
+    position: static;
+  }
+  
+  .color {
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  
+  .bold {
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  
+  .paint {
+    color: hsla(0, 0%, 0%, 0.432);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.523em;
+    font-weight: 500;
+    font-size: 0.955em;
+  }
+
+
+}
